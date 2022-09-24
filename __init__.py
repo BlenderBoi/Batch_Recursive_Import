@@ -13,9 +13,11 @@ bl_info = {
 
 import bpy
 from . import Recursive_Batch_Import_OBJ
+from . import Recursive_Batch_Import_FBX
+from . import Recursive_Batch_Import_Menu
 
 
-modules = [Recursive_Batch_Import_OBJ]
+modules = [Recursive_Batch_Import_OBJ, Recursive_Batch_Import_FBX, Recursive_Batch_Import_Menu]
 
 def register():
 

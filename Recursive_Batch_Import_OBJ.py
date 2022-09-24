@@ -262,8 +262,6 @@ def create_collection(name, use_exist, parent_collection):
 
 
 
-def menu_func_import(self, context):
-    self.layout.operator(BATCHIMPORT_OT_Recursive_Import_OBJ.bl_idname, text="Recursive Batch Import (.obj)")
 
 
 classes = [BATCHIMPORT_OT_Recursive_Import_OBJ]
@@ -275,13 +273,13 @@ def register():
         bpy.utils.register_class(cls)
 
 
-    bpy.types.TOPBAR_MT_file_import.append(menu_func_import)
+    # bpy.types.TOPBAR_MT_file_import.append(menu_func_import)
 
 def unregister():
     for cls in classes:
         bpy.utils.unregister_class(cls)
 
-    bpy.types.TOPBAR_MT_file_import.remove(menu_func_import)
+    # bpy.types.TOPBAR_MT_file_import.remove(menu_func_import)
 
 if __name__ == "__main__":
     register()
