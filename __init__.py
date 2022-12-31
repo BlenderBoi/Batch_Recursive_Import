@@ -1,14 +1,14 @@
 
 bl_info = {
-    "name": "Batch Import",
+    "name": "Batch Recursive Import",
     "author": "BlenderBoi",
-    "version": (1, 0),
+    "version": (1, 1),
     "blender": (3, 00, 0),
     "description": "",
     "warning": "",
     "location": "File > Import",
     "wiki_url": "",
-    "category": "Add Mesh",
+    "category": "Import-Export",
 }
 
 import bpy
