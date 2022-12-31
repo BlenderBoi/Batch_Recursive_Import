@@ -1,5 +1,8 @@
 # Batch Recursive Import
 
+![Banner](https://blenderboi.com/gallery/BatchRecursiveImport/Banner.png)
+
+
 Batch Recursive Import is a **Wrapper Addon** that Helps Import Multiple Files in a Folders Recursively (Including Subfolder)
 
 ![Batch Recursive Import Menu](https://blenderboi.com/gallery/BatchRecursiveImport/ImportRecursiveMenu.png)
